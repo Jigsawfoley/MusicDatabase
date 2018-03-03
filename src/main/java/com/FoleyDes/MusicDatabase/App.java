@@ -77,6 +77,11 @@ public	class	App
 						
 						showListOfUsers();
 						
+						MenuBuilder	theMenu	=	new	MenuBuilder();
+						//theMenu.print();
+						//LOG.debug(theMenu.display());		
+						theMenu.getMenu().display();
+						
 //pause	before	exit	(this	is	only	useful	if	an	error	occurs)
 						
 						System.out.println("	\n	Press	enter	to	exit	the	program");
